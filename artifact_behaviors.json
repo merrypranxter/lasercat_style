@@ -1,0 +1,96 @@
+{
+  "artifact_behaviors": {
+    "version": "1.0.0",
+    
+    "cutout_edge": {
+      "name": "Cutout Edge",
+      "description": "Visible edge from digital masking",
+      "parameters": {
+        "edge_hardness": {"min": 0.0, "max": 1.0, "default": 0.5},
+        "feather_amount": {"min": 0, "max": 20, "default": 5},
+        "edge_noise": {"min": 0.0, "max": 1.0, "default": 0.3}
+      },
+      "intensity_levels": {
+        "subtle": {"feather_amount": 3, "edge_noise": 0.1},
+        "medium": {"feather_amount": 5, "edge_noise": 0.3},
+        "strong": {"feather_amount": 10, "edge_noise": 0.6}
+      }
+    },
+    
+    "glow_halo": {
+      "name": "Glow Halo",
+      "description": "Light bleed around subject edges",
+      "parameters": {
+        "glow_radius": {"min": 0, "max": 50, "default": 15},
+        "glow_intensity": {"min": 0.0, "max": 2.0, "default": 1.0},
+        "glow_color": {"type": "color", "default": "#FFFFFF"},
+        "blend_mode": {"options": ["screen", "add", "lighten"], "default": "screen"}
+      },
+      "intensity_levels": {
+        "subtle": {"glow_radius": 5, "glow_intensity": 0.5},
+        "medium": {"glow_radius": 15, "glow_intensity": 1.0},
+        "strong": {"glow_radius": 30, "glow_intensity": 1.5}
+      }
+    },
+    
+    "jpeg_crust": {
+      "name": "JPEG Crust",
+      "description": "Compression artifacts and blockiness",
+      "parameters": {
+        "compression_quality": {"min": 1, "max": 100, "default": 70},
+        "block_size": {"min": 4, "max": 16, "default": 8},
+        "color_banding": {"min": 0.0, "max": 1.0, "default": 0.3}
+      },
+      "intensity_levels": {
+        "subtle": {"compression_quality": 85, "color_banding": 0.1},
+        "medium": {"compression_quality": 70, "color_banding": 0.3},
+        "strong": {"compression_quality": 50, "color_banding": 0.6}
+      }
+    },
+    
+    "color_clipping": {
+      "name": "Color Clipping",
+      "description": "Over-saturated colors that clip to max",
+      "parameters": {
+        "saturation_boost": {"min": 1.0, "max": 3.0, "default": 1.5},
+        "highlight_clip": {"min": 0.8, "max": 1.0, "default": 0.95},
+        "shadow_crush": {"min": 0.0, "max": 0.2, "default": 0.05}
+      },
+      "intensity_levels": {
+        "subtle": {"saturation_boost": 1.2},
+        "medium": {"saturation_boost": 1.5},
+        "strong": {"saturation_boost": 2.0}
+      }
+    },
+    
+    "source_mismatch": {
+      "name": "Source Mismatch",
+      "description": "Different lighting/resolution between elements",
+      "parameters": {
+        "lighting_variance": {"min": 0.0, "max": 1.0, "default": 0.3},
+        "resolution_variance": {"min": 0.0, "max": 1.0, "default": 0.2},
+        "color_temp_variance": {"min": 0.0, "max": 1.0, "default": 0.2}
+      },
+      "intensity_levels": {
+        "subtle": {"lighting_variance": 0.1, "resolution_variance": 0.1},
+        "medium": {"lighting_variance": 0.3, "resolution_variance": 0.2},
+        "strong": {"lighting_variance": 0.6, "resolution_variance": 0.4}
+      }
+    },
+    
+    "noise_grain": {
+      "name": "Noise/Grain",
+      "description": "Film-like or digital noise texture",
+      "parameters": {
+        "noise_amount": {"min": 0.0, "max": 1.0, "default": 0.1},
+        "noise_size": {"min": 0.5, "max": 4.0, "default": 1.0},
+        "noise_type": {"options": ["gaussian", "film", "digital"], "default": "gaussian"}
+      },
+      "intensity_levels": {
+        "subtle": {"noise_amount": 0.05},
+        "medium": {"noise_amount": 0.1},
+        "strong": {"noise_amount": 0.2}
+      }
+    }
+  }
+}

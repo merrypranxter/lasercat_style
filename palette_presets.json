@@ -1,0 +1,75 @@
+{
+  "palette_presets": {
+    "version": "1.0.0",
+    
+    "rainbow": {
+      "name": "Classic Rainbow",
+      "colors": ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"],
+      "description": "Full ROYGBIV spectrum",
+      "best_for": ["rainbow_puke", "rainbow_laser", "gradient_background"]
+    },
+    
+    "neon_pink_cyan": {
+      "name": "Neon Pink/Cyan",
+      "colors": ["#FF00FF", "#00FFFF", "#FF1493", "#00CED1"],
+      "description": "Classic vaporwave-adjacent neon",
+      "best_for": ["glow_effects", "gradient_background", "drug_cat"]
+    },
+    
+    "cosmic_purple": {
+      "name": "Cosmic Purple",
+      "colors": ["#4B0082", "#8B008B", "#9932CC", "#BA55D3", "#DDA0DD"],
+      "description": "Nebula purple range",
+      "best_for": ["galaxy_background", "space_collage", "aura"]
+    },
+    
+    "candy": {
+      "name": "Candy",
+      "colors": ["#FFB6C1", "#FFC0CB", "#FF69B4", "#FF1493", "#00FFFF", "#FFFF00"],
+      "description": "Bright pastels and neons",
+      "best_for": ["cute_absurd", "glam_trash", "food_cat"]
+    },
+    
+    "synthetic_acid": {
+      "name": "Synthetic Acid",
+      "colors": ["#00FF00", "#FF00FF", "#FFFF00", "#00FFFF", "#FF0000"],
+      "description": "High contrast synthetic colors",
+      "best_for": ["drug_cat", "psychedelic", "posterized"]
+    },
+    
+    "grayscale_rainbow": {
+      "name": "Grayscale + Rainbow",
+      "colors": ["#000000", "#FFFFFF", "#FF0000", "#FFFF00", "#00FF00", "#00FFFF", "#0000FF"],
+      "description": "Black/white with rainbow accents",
+      "best_for": ["graphic_collage", "city_scene", "contrast"]
+    },
+    
+    "sunset": {
+      "name": "Sunset",
+      "colors": ["#FF4500", "#FF6347", "#FFA500", "#FFD700", "#FF69B4"],
+      "description": "Warm sunset gradient",
+      "best_for": ["gradient_background", "warm_cosmic"]
+    },
+    
+    "neon_green_purple": {
+      "name": "Neon Green/Purple",
+      "colors": ["#00FF00", "#9400D3", "#7FFF00", "#9932CC"],
+      "description": "Toxic neon contrast",
+      "best_for": ["glow_effects", "drug_cat", "alien"]
+    },
+    
+    "gold_glam": {
+      "name": "Gold Glam",
+      "colors": ["#FFD700", "#FFA500", "#FF8C00", "#FFFFFF"],
+      "description": "Tacky gold and sparkle",
+      "best_for": ["glam_trash", "diva", "luxury"]
+    },
+    
+    "void_neon": {
+      "name": "Void Neon",
+      "colors": ["#000000", "#FF00FF", "#00FFFF", "#FFFF00"],
+      "description": "Black void with neon accents",
+      "best_for": ["black_void", "high_contrast", "minimal"]
+    }
+  }
+}

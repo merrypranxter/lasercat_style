@@ -1,0 +1,115 @@
+{
+  "scene_archetypes": {
+    "version": "1.0.0",
+    
+    "cosmic_throne": {
+      "name": "Cosmic Throne",
+      "description": "Cat sits on absurd object in cosmic setting",
+      "required_elements": ["cat", "throne_object", "cosmic_background"],
+      "optional_elements": ["glow", "scattered_debris", "aura"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "throne_occupant",
+      "tone": ["entitlement", "absurd_majesty", "passive_power"],
+      "branches": ["cosmic_food", "household_object", "glam_trash"]
+    },
+    
+    "beam_judgment": {
+      "name": "Beam Judgment",
+      "description": "Cat emits beams at target",
+      "required_elements": ["cat", "eye_emission", "target"],
+      "optional_elements": ["glow", "environmental_reaction", "apocalypse"],
+      "composition_mode": "threat_tableau",
+      "cat_role": "destroyer",
+      "tone": ["fake_epic", "destructive_power", "absurd_authority"],
+      "branches": ["laser", "giant", "psychedelic"]
+    },
+    
+    "object_cloud": {
+      "name": "Object Cloud",
+      "description": "Cat floats within dense object scatter",
+      "required_elements": ["cat", "multiple_objects", "background"],
+      "optional_elements": ["glow", "particles", "effects"],
+      "composition_mode": "sticker_scatter",
+      "cat_role": "participant",
+      "tone": ["cosmic_chaos", "maximalist_joy", "pattern_absurdity"],
+      "branches": ["space_collage", "glam_trash", "cosmic_food"]
+    },
+    
+    "ride": {
+      "name": "Ride",
+      "description": "Cat rides absurd vehicle or mount",
+      "required_elements": ["cat", "mount", "background"],
+      "optional_elements": ["trail", "motion_blur", "adventure_elements"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "rider",
+      "tone": ["adventure_absurdity", "surreal_transport", "heroic_stupidity"],
+      "branches": ["cosmic_food", "co_star_creature"]
+    },
+    
+    "merge": {
+      "name": "Merge",
+      "description": "Cat fused with or framed by object",
+      "required_elements": ["cat", "framing_object"],
+      "optional_elements": ["background", "glow"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "object_inhabitant",
+      "tone": ["blunt_absurdity", "iconic_literalness", "visual_compression"],
+      "branches": ["household_object", "cosmic_food"]
+    },
+    
+    "kaiju_threat": {
+      "name": "Kaiju Threat",
+      "description": "Giant cat looms over city or landscape",
+      "required_elements": ["giant_cat", "city_or_landscape"],
+      "optional_elements": ["beams", "destruction", "apocalypse"],
+      "composition_mode": "threat_tableau",
+      "cat_role": "deity",
+      "tone": ["fake_epic", "absurd_majesty", "kaiju_camp"],
+      "branches": ["giant", "monster_god", "graphic_collage"]
+    },
+    
+    "contact": {
+      "name": "Contact",
+      "description": "Cat interacts with UFO or cosmic presence",
+      "required_elements": ["cat", "UFO_or_presence"],
+      "optional_elements": ["beam", "reaching", "abduction"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "witness",
+      "tone": ["cosmic_wonder", "absurd_contact", "fake_revelation"],
+      "branches": ["UFO", "space_collage", "psychedelic"]
+    },
+    
+    "freakout": {
+      "name": "Freakout",
+      "description": "Cat face chemically or visually overwhelmed",
+      "required_elements": ["cat_face", "visual_overload"],
+      "optional_elements": ["posterized", "glowing_eyes", "emission"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "emission_source",
+      "tone": ["chemical_chaos", "visual_overload", "blasted_transcendence"],
+      "branches": ["psychedelic", "drug", "rainbow_puke"]
+    },
+    
+    "witness": {
+      "name": "Witness",
+      "description": "Cat observes cosmic events with minimal reaction",
+      "required_elements": ["cat", "dramatic_background"],
+      "optional_elements": ["side_glance", "neutral_expression"],
+      "composition_mode": "single_gag_hero",
+      "cat_role": "witness",
+      "tone": ["deadpan_absurdity", "cosmic_indifference", "accidental_philosophy"],
+      "branches": ["space_collage", "graphic_collage", "UFO"]
+    },
+    
+    "diva": {
+      "name": "Diva",
+      "description": "Cat treated as glamorous in absurd context",
+      "required_elements": ["cat", "glam_accessories"],
+      "optional_elements": ["diamonds", "sunglasses", "jewelry"],
+      "composition_mode": "sticker_scatter",
+      "cat_role": "deity",
+      "tone": ["diva_absurdity", "ironic_status", "lowbrow_glamour"],
+      "branches": ["glam_trash", "space_collage", "cosmic_food"]
+    }
+  }
+}

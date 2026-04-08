@@ -1,0 +1,149 @@
+{
+  "prompt_knobs": {
+    "version": "1.0.0",
+    
+    "cat": {
+      "pose": {
+        "type": "select",
+        "options": ["loaf", "upright", "sprawled", "mid_action", "face_forward"],
+        "default": "loaf"
+      },
+      "expression": {
+        "type": "select",
+        "options": ["blank", "confused", "smug", "feral", "screaming"],
+        "default": "blank"
+      },
+      "scale": {
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "default": 50,
+        "labels": ["tiny", "medium", "giant"]
+      }
+    },
+    
+    "objects": {
+      "food": {
+        "type": "multi_select",
+        "options": ["pizza", "burger", "fries", "taco", "sandwich", "bread", "donut", "milkshake"],
+        "default": []
+      },
+      "glam": {
+        "type": "multi_select",
+        "options": ["sunglasses", "diamonds", "jewelry", "hats", "tiaras"],
+        "default": []
+      },
+      "sci_fi": {
+        "type": "multi_select",
+        "options": ["UFO", "planet", "star", "nebula"],
+        "default": []
+      },
+      "density": {
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "default": 50,
+        "labels": ["sparse", "medium", "dense"]
+      }
+    },
+    
+    "effects": {
+      "eye_effect": {
+        "type": "select",
+        "options": ["none", "laser_red", "laser_rainbow", "glowing"],
+        "default": "none"
+      },
+      "mouth_effect": {
+        "type": "select",
+        "options": ["none", "rainbow_puke", "sparkle_stream"],
+        "default": "none"
+      },
+      "body_effect": {
+        "type": "select",
+        "options": ["none", "aura", "halo"],
+        "default": "none"
+      },
+      "intensity": {
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "default": 70,
+        "labels": ["subtle", "medium", "intense"]
+      }
+    },
+    
+    "background": {
+      "type": {
+        "type": "select",
+        "options": ["galaxy", "gradient", "void", "city", "scene"],
+        "default": "galaxy"
+      },
+      "color": {
+        "type": "color",
+        "default": "#4B0082"
+      },
+      "intensity": {
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "default": 70
+      }
+    },
+    
+    "style": {
+      "composition": {
+        "type": "select",
+        "options": ["sticker_scatter", "single_gag_hero", "threat_tableau"],
+        "default": "single_gag_hero"
+      },
+      "artifact_level": {
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "default": 50,
+        "labels": ["clean", "medium", "crusty"]
+      },
+      "palette": {
+        "type": "select",
+        "options": ["rainbow", "neon", "cosmic", "candy", "synthetic"],
+        "default": "rainbow"
+      },
+      "tone": {
+        "type": "select",
+        "options": ["absurd", "campy", "fake_epic", "dumb_delight"],
+        "default": "absurd"
+      }
+    },
+    
+    "presets": {
+      "classic": {
+        "cat": {"pose": "loaf", "expression": "blank", "scale": 50},
+        "objects": {"food": ["pizza"], "density": 30},
+        "effects": {"eye_effect": "none", "intensity": 50},
+        "background": {"type": "galaxy", "intensity": 70},
+        "style": {"composition": "single_gag_hero", "artifact_level": 50}
+      },
+      "laser_destroyer": {
+        "cat": {"pose": "face_forward", "expression": "smug", "scale": 100},
+        "objects": {},
+        "effects": {"eye_effect": "laser_rainbow", "intensity": 100},
+        "background": {"type": "city", "intensity": 80},
+        "style": {"composition": "threat_tableau", "artifact_level": 50}
+      },
+      "scatter_chaos": {
+        "cat": {"pose": "upright", "expression": "confused", "scale": 50},
+        "objects": {"food": ["fries", "burger"], "glam": ["diamonds"], "sci_fi": ["UFO"], "density": 80},
+        "effects": {"body_effect": "aura", "intensity": 70},
+        "background": {"type": "gradient", "intensity": 60},
+        "style": {"composition": "sticker_scatter", "artifact_level": 70}
+      },
+      "glam_diva": {
+        "cat": {"pose": "loaf", "expression": "smug", "scale": 50},
+        "objects": {"glam": ["sunglasses", "diamonds", "jewelry"], "density": 60},
+        "effects": {"body_effect": "halo", "intensity": 60},
+        "background": {"type": "galaxy", "intensity": 70},
+        "style": {"composition": "sticker_scatter", "artifact_level": 30}
+      }
+    }
+  }
+}

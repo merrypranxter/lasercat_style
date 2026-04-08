@@ -1,0 +1,124 @@
+{
+  "style_name": "laser_cat_style",
+  "version": "1.0.0",
+  "description": "Early-internet cat collage aesthetic with cosmic backdrops, absurd objects, and correct badness",
+  
+  "core_principles": {
+    "cat_centrality": true,
+    "collage_visibility": true,
+    "absurd_premise": true,
+    "visual_escalation": true,
+    "correct_badness": true
+  },
+  
+  "composition_modes": [
+    "sticker_scatter",
+    "single_gag_hero",
+    "threat_tableau"
+  ],
+  
+  "substyle_branches": [
+    "cosmic_food_cat",
+    "laser_psychedelic_drug_cat",
+    "space_collage_cat",
+    "monster_god_cat",
+    "glam_trash_cat",
+    "household_object_cat",
+    "co_star_creature_cat",
+    "graphic_collage_cat"
+  ],
+  
+  "motif_families": {
+    "food": ["pizza", "burger", "fries", "taco", "sandwich", "bread", "donut", "milkshake"],
+    "glam": ["sunglasses", "diamonds", "jewelry", "hats", "tiaras", "makeup"],
+    "sci_fi": ["UFO", "planet", "star", "nebula", "cosmic_debris"],
+    "household": ["toilet_paper", "box", "furniture", "electronics"],
+    "co_stars": ["shark", "dog", "bird", "alpaca", "unicorn"]
+  },
+  
+  "effects": {
+    "eye": ["laser_red", "laser_rainbow", "glowing", "geometric"],
+    "mouth": ["rainbow_puke", "sparkle_stream", "beam"],
+    "body": ["aura", "halo", "glow"],
+    "environmental": ["particles", "glow_bleed", "sparkle"]
+  },
+  
+  "background_types": [
+    "galaxy_nebula",
+    "gradient",
+    "black_void",
+    "city_skyline",
+    "apocalypse",
+    "beach"
+  ],
+  
+  "color_palettes": [
+    "rainbow",
+    "neon",
+    "cosmic",
+    "candy",
+    "synthetic"
+  ],
+  
+  "artifact_preferences": {
+    "cutout_edges": true,
+    "glow_halo": true,
+    "jpeg_crust": true,
+    "color_clipping": true,
+    "source_mismatch": true
+  },
+  
+  "tone_keywords": [
+    "absurd",
+    "campy",
+    "stupid",
+    "colorful",
+    "internet_native",
+    "tacky"
+  ],
+  
+  "anti_drift_keywords": [
+    "rough_cutout",
+    "tacky_glow",
+    "internet_meme",
+    "correct_badness",
+    "not_polished",
+    "not_realistic"
+  ],
+  
+  "cat_power_roles": [
+    "deity",
+    "idiot",
+    "destroyer",
+    "witness",
+    "rider",
+    "throne_occupant",
+    "emission_source",
+    "object_inhabitant",
+    "icon",
+    "participant"
+  ],
+  
+  "humor_engines": [
+    "juxtaposition",
+    "scale_absurdity",
+    "power_mismatch",
+    "context_wrongness",
+    "object_nonsense",
+    "visual_escalation",
+    "cat_idiocy"
+  ],
+  
+  "scene_archetypes": [
+    "cosmic_throne",
+    "beam_judgment",
+    "object_cloud",
+    "ride",
+    "merge",
+    "kaiju_threat",
+    "contact",
+    "freakout",
+    "witness",
+    "diva"
+  ]
+}

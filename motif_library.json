@@ -1,0 +1,145 @@
+{
+  "motif_library": {
+    "version": "1.0.0",
+    
+    "food": {
+      "pizza": {
+        "tags": ["food", "vehicle", "throne", "circular"],
+        "color": ["red", "yellow", "brown"],
+        "best_for": ["ride", "throne", "cosmic_food"]
+      },
+      "burger": {
+        "tags": ["food", "throne", "layered"],
+        "color": ["brown", "red", "green", "yellow"],
+        "best_for": ["throne", "cosmic_food"]
+      },
+      "fries": {
+        "tags": ["food", "scatter", "linear"],
+        "color": ["yellow", "gold"],
+        "best_for": ["scatter", "object_cloud"]
+      },
+      "taco": {
+        "tags": ["food", "vehicle", "folded"],
+        "color": ["yellow", "brown", "green"],
+        "best_for": ["ride", "cosmic_food"]
+      },
+      "sandwich": {
+        "tags": ["food", "throne", "rectangular"],
+        "color": ["brown", "green", "red"],
+        "best_for": ["throne", "merge"]
+      },
+      "bread": {
+        "tags": ["food", "household", "framing"],
+        "color": ["brown", "beige"],
+        "best_for": ["merge", "object_inhabitant"]
+      },
+      "donut": {
+        "tags": ["food", "circular", "framing"],
+        "color": ["pink", "brown", "multicolor"],
+        "best_for": ["merge", "cute_absurd"]
+      },
+      "milkshake": {
+        "tags": ["food", "drink", "vertical"],
+        "color": ["white", "pink", "brown"],
+        "best_for": ["scatter", "object_cloud"]
+      }
+    },
+    
+    "glam": {
+      "sunglasses": {
+        "tags": ["glam", "accessory", "face"],
+        "color": ["black", "neon", "rhinestone"],
+        "best_for": ["diva", "glam_trash"]
+      },
+      "diamonds": {
+        "tags": ["glam", "scatter", "precious"],
+        "color": ["white", "silver", "rainbow"],
+        "best_for": ["scatter", "object_cloud", "glam_trash"]
+      },
+      "jewelry": {
+        "tags": ["glam", "accessory", "body"],
+        "color": ["gold", "silver"],
+        "best_for": ["diva", "glam_trash"]
+      },
+      "hats": {
+        "tags": ["glam", "accessory", "head"],
+        "color": ["varied"],
+        "best_for": ["character", "themed"]
+      },
+      "tiaras": {
+        "tags": ["glam", "accessory", "royal"],
+        "color": ["silver", "gold"],
+        "best_for": ["diva", "deity"]
+      }
+    },
+    
+    "sci_fi": {
+      "UFO": {
+        "tags": ["sci_fi", "vehicle", "flying"],
+        "color": ["silver", "gray", "glowing"],
+        "best_for": ["contact", "space_collage"]
+      },
+      "planet": {
+        "tags": ["sci_fi", "celestial", "spherical"],
+        "color": ["varied"],
+        "best_for": ["space_collage", "background"]
+      },
+      "star": {
+        "tags": ["sci_fi", "celestial", "point"],
+        "color": ["white", "yellow"],
+        "best_for": ["scatter", "background"]
+      },
+      "nebula": {
+        "tags": ["sci_fi", "background", "cloud"],
+        "color": ["purple", "pink", "blue", "green"],
+        "best_for": ["background"]
+      }
+    },
+    
+    "household": {
+      "toilet_paper": {
+        "tags": ["household", "wrapping", "white"],
+        "color": ["white"],
+        "best_for": ["merge", "object_inhabitant"]
+      },
+      "box": {
+        "tags": ["household", "container", "square"],
+        "color": ["brown"],
+        "best_for": ["merge", "throne"]
+      },
+      "furniture": {
+        "tags": ["household", "platform"],
+        "color": ["varied"],
+        "best_for": ["throne", "domestic_surrealism"]
+      }
+    },
+    
+    "co_stars": {
+      "shark": {
+        "tags": ["co_star", "mount", "dangerous"],
+        "color": ["gray", "blue"],
+        "best_for": ["ride", "adventure"]
+      },
+      "dog": {
+        "tags": ["co_star", "companion", "domestic"],
+        "color": ["varied"],
+        "best_for": ["partner", "relational"]
+      },
+      "bird": {
+        "tags": ["co_star", "flying", "small"],
+        "color": ["varied"],
+        "best_for": ["witness", "accent"]
+      },
+      "alpaca": {
+        "tags": ["co_star", "mount", "absurd"],
+        "color": ["white", "brown"],
+        "best_for": ["ride", "absurd"]
+      },
+      "unicorn": {
+        "tags": ["co_star", "mount", "mythical"],
+        "color": ["white", "rainbow"],
+        "best_for": ["ride", "fantasy"]
+      }
+    }
+  }
+}
